@@ -22,7 +22,9 @@ The following software is required:
 
 ### Test Case
 
-A 3D patient-specific model of left anterior descending artery (LAD) is provided in the Test directory. All the codes will need blood flow velocities and WSS vectorial fields in vtu or h5 format. Under Test directory, all required files are included for the test case. To use h5 file format, the user need to comment out the section regarding reading vtu files and uncomment the section related to reading h5 files. Using h5 file format decreases the computation cost.
+A 3D patient-specific model of left anterior descending artery (LAD) is provided in the Test directory. All the codes will need blood flow velocities and WSS vectorial fields in xml or h5 format. All required files are included for the test case in a google drive. To use h5 file format, the user need to comment out the section regarding reading vtu files and uncomment the section related to reading h5 files. Using h5 file format decreases the computation cost.
+
+Google Drive link: https://drive.google.com/drive/folders/1-y5rmTh7RBTvyfY7zKIuVZdH7-gy4zsG?usp=sharing
 
 ### How to cite?
 
