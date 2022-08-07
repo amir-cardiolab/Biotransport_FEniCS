@@ -1,6 +1,6 @@
-## About Biotransport Package
+## About Oasis_geomRot_ResTuning Package
 
-This package contains the codes to simulate the near-wall transport of NO, LDL, ATP, O2, Monocytes, and MCP-1 in coronary arteries.
+This package is a modified version of Oasis software package to solve Navier-Stokes equations in arbitrary geometries. 
 
 It is developed in the Cardiovascular Biomechanics Lab, NAU, by Mostafa Mahmoudi under direction of Dr. Amirhossein Arzani.
 
@@ -22,9 +22,9 @@ The following software is required:
 
 ### Test Case
 
-A 3D patient-specific model of left anterior descending artery (LAD) is provided in the Test directory. All the codes will need blood flow velocities and WSS vectorial fields in vtu or h5 format. Under Test directory, all required files are included for the test case. To use h5 file format, the user need to comment out the section regarding reading vtu files and uncomment the section related to reading h5 files. Using h5 file format decreases the computation cost.
+A 3D patient-specific model of left anterior descending artery (LAD) is provided. The problem test case in the "problem/NSfracStep" directory is named "vul_plaque_3A_2016_LAD_geomRotation.py". This file read the inflow boundary condition file, "vul_plaque_3A_2016_LAD_BC", as well as the NSfracStep file named "NSfracStep_rotation_Res_LAD.py" in the main directory. The solver file associated with this problem is under "solvers/NSfracStep" directory with the name "IPCS_ABCN_LAD.py". 
 
-The link to google drive: https://drive.google.com/drive/folders/1-y5rmTh7RBTvyfY7zKIuVZdH7-gy4zsG?usp=sharing
+Google Drive link to the mesh files: https://drive.google.com/drive/folders/15ttuJ0blJZ5SiGVaHm7v686KjvwzGZf1?usp=sharing
 
 ### How to cite?
 
